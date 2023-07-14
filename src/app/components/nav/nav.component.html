@@ -1,0 +1,82 @@
+<div id="main-wrapper" class="overflow-hidden">
+	<div id="header-wrap">
+	<div class="header-top-menu bg-black color-secondary">
+		<div class="container">
+			<div class="row">
+				<div class="wrap flex-container padding-small">
+				<div class="contact-block">
+					<span class="pr-50"><i class="fa-solid fa-phone mr-2"></i>5555-00-444</span>
+					<span class="color-secondary"><i class="fa-regular fa-envelope mr-2"></i><a href="#">sugarcake@gmail.com</a></span>
+				</div>
+
+				<div class="header-top-right">
+					<ul class="list-unstyled d-flex color-secondary">
+						<li class="pr-50"><a href="#">FAQs</a></li>
+						<li><a href="#">Ayuda</a></li>
+					</ul>
+				</div>
+				</div><!--flex-container-->
+			</div>
+		</div>
+	</div><!----top-menu---->
+
+	<header id="header">
+		<div class="container">
+			<div class="row">
+
+				<nav class="navbar navbar-expand-lg col-md-12">
+
+					<div class="navbar-brand">
+						<a routerLink="/">
+							<img src="../../../assets/images/badge2.png" alt="logo">
+						</a>
+					</div>
+
+					<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#slide-navbar-collapse" aria-controls="slide-navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"><i class="icon icon-navicon"></i></span>
+					</button>
+
+					<div class="navbar-collapse collapse" id="slide-navbar-collapse">
+						<ul class="navbar-nav list-inline text-uppercase">
+							<li class="nav-item text-hover active"><a routerLink="/" routerLinkActive="active"  class="nav-link" data-effect="Home">Home</a></li>
+							<li class="nav-item text-hover"><a routerLink="/about" routerLinkActive="active" class="nav-link" data-effect="About Us">Quiénes somos</a></li>
+							<li class="nav-item text-hover"><a routerLink="/shop" routerLinkActive="active" class="nav-link" data-effect="Shop">Tienda</a></li>
+							<li class="nav-item text-hover"><a routerLink="/contact" routerLinkActive="active" class="nav-link" data-effect="Contact">Contáctanos</a></li>
+
+							<li class="nav-item dropdown">
+								<a href="#" data-bs-toggle="dropdown" aria-expanded="false" class="nav-link dropdown-toggle">Páginas</a>
+								<ul class="dropdown-menu">
+									<li><a routerLink="/about" class="dropdown-item">Quiénes somos</a></li>
+									<li><a routerLink="/contact" class="dropdown-item">Contáctanos</a></li>
+									<li><a routerLink="/shop" class="dropdown-item">Shop</a></li>
+									<li><a routerLink="/single-product" class="dropdown-item">Producto</a></li>
+								</ul>
+							</li>
+
+						</ul>
+					</div>
+
+					<div class="action-menu">
+						<div class="searchbar">
+							<a href="#" class="search-button search-toggle" data-selector=".navbar">
+								<i class="fa-solid fa-magnifying-glass fa-lg"></i>
+							</a>
+							<form role="search" method="get" class="search-box" action="">
+								<input class="search-field text search-input" placeholder="Search" type="search">
+							</form>
+						</div>
+						<div class="shopping-cart">
+							<a href="#">
+								<i class="fa-solid fa-cart-shopping"></i>
+							</a>
+						</div>
+					</div><!--action-menu-->
+
+				</nav>
+
+			</div>		
+		</div>
+
+	</header>
+
+</div><!--header-wrap-->

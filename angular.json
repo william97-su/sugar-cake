@@ -23,9 +23,21 @@
               "src/assets"
             ],
             "styles": [
+              "src/assets/css/slick.css",
+              "src/assets/css/slick-theme.css",
+              "node_modules/magnific-popup/dist/magnific-popup.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/@popperjs/core/dist/umd/popper.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "src/assets/js/slick.min.js",
+              "node_modules/magnific-popup/dist/jquery.magnific-popup.min.js",
+              "src/assets/js/scroll-up-bar.min.js",
+              "src/assets/js/script.js"
+            ]
           },
           "configurations": {
             "production": {
